@@ -42,9 +42,11 @@ if it's a Monday, then the result is:
 
 You can transform the text to [UPPERCASE](http://getkirby.com/docs/toolkit/api/str/upper) or [lowercase](http://getkirby.com/docs/toolkit/api/str/lower) by using the options. The default option will use the exact format of the translation.
 
-Uppercase: `(today: upper)`
-Lowercase: `(today: lower)`
-Default: `(today:)`
+**Uppercase:** `(today: upper)`
+
+**Lowercase:** `(today: lower)`
+
+**Default:** `(today:)`
 
 ## Authors
 
