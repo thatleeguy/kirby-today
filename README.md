@@ -5,20 +5,22 @@ A simple tag for Kirby CMS which lets you output the current day. It's multi-lan
 ## Installation
 
 ### Download
-[Download the files](https://github.com/roylodder/kirby-today/archive/master.zip) and put them inside the `site/tags` folder. If the tags folder doesn't exist, create it.
+[Download the files](https://github.com/roylodder/kirby-today/archive/master.zip) and put them inside the `site/tags/today` folder. If the folder doesn't exist, create it.
 
 ### With Git
-If you are familiar with Git, you can clone this repository from Github inside the `/site/tags` folder.
+If you are familiar with Git, you can clone this repository from Github inside the `/site/tags/today` folder.
 
-    git clone https://github.com/roylodder/kirby-today.git
+    git clone https://github.com/roylodder/kirby-today.git today
 
 Or you can use it as a Git Submodule.
 
-    git submodule add https://github.com/roylodder/kirby-today.git site/tags
+    git submodule add https://github.com/roylodder/kirby-today.git site/tags/today
 
 ### Language
 
 If you want this to work you'll need an multi-language instalation. You can use the [Langkit](https://github.com/getkirby/langkit) of Kirby to get started. Add the following translations to your files inside the `site/language` folder.
+
+** Example translation **
 
     l::set('monday', 'Monday');
     l::set('tuesday', 'Tuesday');
@@ -48,6 +50,7 @@ You can transform the text to [UPPERCASE](http://getkirby.com/docs/toolkit/api/s
 
 **Default:** `(today:)`
 
-## Authors
+## Authors & Contributors
 
 Author: Roy Lodder <http://roylodder.com>
+Contributor: Philippe Gervaise <https://github.com/malvese>
