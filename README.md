@@ -18,9 +18,9 @@ Or you can use it as a Git Submodule.
 
 ### Language
 
-If you want this to work you'll need an multi-language instalation. You can use the [Langkit](https://github.com/getkirby/langkit) of Kirby to get started. Add the following translations to your files inside the `site/language` folder.
+If you want this to work you'll need an multi-language instalation. You can use the [Langkit](https://github.com/getkirby/langkit) of Kirby to get started. Add one or more translations to your files inside the `site/language` folder. There already are some translations ready to use. Find them in the [language folder](https://github.com/roylodder/kirby-today/tree/master/languages) inside this repository.
 
-** Example translation **
+**Example translation**
 
     l::set('monday', 'Monday');
     l::set('tuesday', 'Tuesday');
