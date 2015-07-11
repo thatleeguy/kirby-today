@@ -5,16 +5,18 @@ A simple tag for Kirby CMS which lets you output the current day. It's multi-lan
 ## Installation
 
 ### Download
-[Download the files](https://github.com/roylodder/kirby-today/archive/master.zip) and put them inside the `site/tags/today` folder. If the folder doesn't exist, create it.
+[Download the files](https://github.com/roylodder/kirby-today/archive/master.zip) and put them inside the `site/plugins/today` folder. If the folder doesn't exist, create it.
+
+**Note:** You can also put `today.php` into your `site/tags` folder. I recommend to use the `site/plugins` folder, because you then can add it as Git Submodule. 
 
 ### With Git
-If you are familiar with Git, you can clone this repository from Github inside the `/site/tags/today` folder.
+If you are familiar with Git, you can clone this repository from Github to the `/site/plugins/today` folder.
 
-    git clone https://github.com/roylodder/kirby-today.git today
+    git clone https://github.com/roylodder/kirby-today.git site/plugins/today
 
 Or you can use it as a Git Submodule.
 
-    git submodule add https://github.com/roylodder/kirby-today.git site/tags/today
+    git submodule add https://github.com/roylodder/kirby-today.git site/plugins/today
 
 ### Language
 
